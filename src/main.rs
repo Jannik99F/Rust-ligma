@@ -4,19 +4,34 @@ use clap::Parser;
 #[derive(Parser, Debug)]
 #[command(version, about, long_about = None)]
 struct Args {
-    /// Name of the person to greet
-    #[arg(short, long)]
-    name: String,
+    
+    o1: f64,
+    
+    o2: f64,
 
-    /// Number of times to greet
-    #[arg(short, long, default_value_t = 1)]
-    count: u8,
+    operation: String,
+
 }
 
 fn main() {
     let args = Args::parse();
 
-    for _ in 0..args.count {
-        println!("ligma {}!", args.name);
-    }
+    let result = match args.operation.as_str() {
+        "add" => args.o1 + args.o2,
+        "sub" => args.o1 - args.o2,
+        "mul" => args.o1 * args.o2,
+        "div" => {
+            if args.o2 == 0.0 {
+                println!("Tuhe das nicht!!!!!!!");
+                return;
+            }
+            args.o1 / args.o2
+        }
+        _ => {
+            println!("Invalid operation! Use +, -, *, or /");
+            return;
+        }
+    };
+
+    println!("{} {} {} = {}", args.o1, args.operation, args.o2, result);
 }
