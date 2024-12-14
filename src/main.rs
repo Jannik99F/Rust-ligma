@@ -38,13 +38,16 @@ let response = reqwest::get(url).await?;
     let args = Args::parse();
     dotenv().ok();
     let api_key = env::var("API_KEY").expect("env-var API_KEY muss gesetzt sein!\n");
-    let url = format!("https://www.rmv.de/hapi/location.name?accessId={}&input=frankfurt%20hauptbahnhof&format=json",api_key);
+   //Die Haltestellen id bekommt man über location.name 
+    let origin = "A=1@O=Frankfurt (Main) Nibelungenplatz@X=8693144@Y=50129020@U=80@L=3000507@B=1@p=1733939625@";
+
+    let destination="A=1@O=Bad Vilbel Alte Frankfurter Stra\u{00df}e@X=8728373@Y=50168959@U=80@L=3002404@B=1@p=1733939625@";
+
+    //sucht nach einer Verbindung für zwei Haltestellen 
+    let url = format!("https://www.rmv.de/hapi/trip?accessId={}&originId={}&destId={}&format=json",api_key,origin,destination);
+
+    //Infos über eine Haltestelle : let url = format!("https://www.rmv.de/hapi/location.name?accessId={}&input=bad vilbel%20alte frankfurter straße&format=json",api_key);
     get_request(&url).await?;
-    // let client = reqwest::Client::new();
-    // let data = client.get("https://httpbin.org/get")
-    //     .await?
-    //     .text()
-    //     .await?;
 
     let mut table = Table::new();
     table.set_format(*format::consts::FORMAT_BOX_CHARS);
