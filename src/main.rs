@@ -1,3 +1,6 @@
+//execute via cargo build --release
+// and ./target/release/rust-ligma --haltestelle iglauer_weg --id 18 --arrival 16:48 --departure 17:45
+
 mod cli;
 mod network;
 mod domain;
