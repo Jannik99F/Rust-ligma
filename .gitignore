@@ -1,4 +1,6 @@
 /target
 .env
+.envrc
+.direnv
 flake.lock
 test.json
