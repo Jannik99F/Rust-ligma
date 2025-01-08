@@ -1,0 +1,914 @@
+{
+    "stopLocationOrCoordLocation": [
+        {
+            "StopLocation": {
+                "LocationNotes": {
+                    "LocationNote": [
+                        {
+                            "value": "",
+                            "key": "WS",
+                            "type": "A",
+                            "txtN": ""
+                        },
+                        {
+                            "value": "",
+                            "key": "V0",
+                            "type": "A",
+                            "txtN": ""
+                        },
+                        {
+                            "value": "",
+                            "key": "IS",
+                            "type": "A",
+                            "txtN": ""
+                        },
+                        {
+                            "value": "",
+                            "key": "HT",
+                            "type": "A",
+                            "txtN": ""
+                        },
+                        {
+                            "value": "",
+                            "key": "HE",
+                            "type": "A",
+                            "txtN": ""
+                        },
+                        {
+                            "value": "",
+                            "key": "HB",
+                            "type": "A",
+                            "txtN": ""
+                        },
+                        {
+                            "value": "de:06440:2404",
+                            "key": "IF",
+                            "type": "I",
+                            "txtN": "de:06440:2404"
+                        },
+                        {
+                            "value": "06440003",
+                            "key": "GK",
+                            "type": "I",
+                            "txtN": "06440003"
+                        }
+                    ]
+                },
+                "productAtStop": [
+                    {
+                        "icon": {
+                            "foregroundColor": {
+                                "r": 255,
+                                "g": 255,
+                                "b": 255,
+                                "hex": "#FFFFFF"
+                            },
+                            "backgroundColor": {
+                                "r": 167,
+                                "g": 22,
+                                "b": 128,
+                                "hex": "#A71680"
+                            },
+                            "res": "prod_bus"
+                        },
+                        "name": "Bus 30",
+                        "internalName": "Bus 30",
+                        "line": "30",
+                        "lineId": "de:rmv:00000830:",
+                        "catOut": "Bus",
+                        "cls": "64",
+                        "catOutS": "1aE",
+                        "catOutL": "Niederflurbus"
+                    },
+                    {
+                        "icon": {
+                            "foregroundColor": {
+                                "r": 255,
+                                "g": 255,
+                                "b": 255,
+                                "hex": "#FFFFFF"
+                            },
+                            "backgroundColor": {
+                                "r": 167,
+                                "g": 22,
+                                "b": 128,
+                                "hex": "#A71680"
+                            },
+                            "res": "prod_bus"
+                        },
+                        "name": "Bus 551",
+                        "internalName": "Bus 551",
+                        "line": "551",
+                        "lineId": "de:rmv:00000600:",
+                        "catOut": "Bus",
+                        "cls": "64",
+                        "catOutS": "1aE",
+                        "catOutL": "Niederflurbus"
+                    },
+                    {
+                        "icon": {
+                            "foregroundColor": {
+                                "r": 255,
+                                "g": 255,
+                                "b": 255,
+                                "hex": "#FFFFFF"
+                            },
+                            "backgroundColor": {
+                                "r": 167,
+                                "g": 22,
+                                "b": 128,
+                                "hex": "#A71680"
+                            },
+                            "res": "prod_bus"
+                        },
+                        "name": "Bus X97",
+                        "internalName": "Bus X97",
+                        "line": "X97",
+                        "lineId": "de:rmv:00000666:",
+                        "catOut": "Bus",
+                        "cls": "64",
+                        "catOutS": "1aE",
+                        "catOutL": "Niederflurbus"
+                    },
+                    {
+                        "icon": {
+                            "foregroundColor": {
+                                "r": 255,
+                                "g": 255,
+                                "b": 255,
+                                "hex": "#FFFFFF"
+                            },
+                            "backgroundColor": {
+                                "r": 167,
+                                "g": 22,
+                                "b": 128,
+                                "hex": "#A71680"
+                            },
+                            "res": "prod_bus"
+                        },
+                        "name": "Bus n96",
+                        "internalName": "Bus n96",
+                        "line": "n96",
+                        "lineId": "de:rmv:00000648:",
+                        "catOut": "Bus",
+                        "cls": "64",
+                        "catOutS": "1aE",
+                        "catOutL": "Niederflurbus"
+                    },
+                    {
+                        "icon": {
+                            "foregroundColor": {
+                                "r": 255,
+                                "g": 255,
+                                "b": 255,
+                                "hex": "#FFFFFF"
+                            },
+                            "backgroundColor": {
+                                "r": 167,
+                                "g": 22,
+                                "b": 128,
+                                "hex": "#A71680"
+                            },
+                            "res": "prod_bus"
+                        },
+                        "name": "BusFB-60",
+                        "internalName": "BusFB-60",
+                        "line": "FB-60",
+                        "lineId": "de:rmv:00001043:",
+                        "catOut": "Bus",
+                        "cls": "64",
+                        "catOutS": "1aE",
+                        "catOutL": "Niederflurbus"
+                    }
+                ],
+                "altId": [
+                    "de:06440:2404"
+                ],
+                "timezoneOffset": 60,
+                "id": "A=1@O=Bad Vilbel Alte Frankfurter Stra\u00dfe@X=8728373@Y=50168959@U=80@L=3002404@B=1@p=1736186035@",
+                "extId": "3002404",
+                "name": "Bad Vilbel Alte Frankfurter Stra\u00dfe",
+                "lon": 8.728373,
+                "lat": 50.168959,
+                "weight": 168,
+                "products": 64
+            }
+        },
+        {
+            "CoordLocation": {
+                "links": [
+                    {
+                        "link": [
+                            {
+                                "rel": "refine",
+                                "href": "https://www.rmv.de/hapi/location.name?input=Alte+Frankfurter+Stra%C3%9Fe&refineId=A%3D2%40O%3DAlte+Frankfurter+Stra%C3%9Fe+61118+Bad+Vilbel%40X%3D8726404%40Y%3D50167386%40U%3D103%40b%3D990017153%40B%3D1%40p%3D1716290195%40&type=A"
+                            }
+                        ]
+                    }
+                ],
+                "icon": {
+                    "res": "loc_addr"
+                },
+                "id": "A=2@O=Alte Frankfurter Stra\u00dfe 61118 Bad Vilbel@X=8726404@Y=50167386@U=103@b=990017153@B=1@p=1716290195@",
+                "name": "Alte Frankfurter Stra\u00dfe",
+                "description": "61118 Bad Vilbel",
+                "type": "ADR",
+                "lon": 8.726404,
+                "lat": 50.167386,
+                "refinable": true
+            }
+        },
+        {
+            "CoordLocation": {
+                "LocationNotes": {
+                    "LocationNote": [
+                        {
+                            "value": "",
+                            "key": "WS",
+                            "type": "A",
+                            "txtN": ""
+                        },
+                        {
+                            "value": "",
+                            "key": "HT",
+                            "type": "A",
+                            "txtN": ""
+                        }
+                    ]
+                },
+                "id": "A=32@O=Bad Vilbel / Heilsberg / Alte Frankfurter Stra\u00dfe (@X=0@Y=0@U=106@L=970260101@B=1@p=1731403294@",
+                "extId": "970260101",
+                "name": "Bad Vilbel / Heilsberg / Alte Frankfurter Stra\u00dfe (",
+                "type": "LM",
+                "lon": 0.0,
+                "lat": 0.0
+            }
+        },
+        {
+            "CoordLocation": {
+                "LocationNotes": {
+                    "LocationNote": [
+                        {
+                            "value": "",
+                            "key": "WS",
+                            "type": "A",
+                            "txtN": ""
+                        },
+                        {
+                            "value": "",
+                            "key": "HT",
+                            "type": "A",
+                            "txtN": ""
+                        }
+                    ]
+                },
+                "id": "A=32@O=Bad Vilbel / Heilsberg / Alte Frankfurter Stra\u00dfe (@X=0@Y=0@U=106@L=970264500@B=1@p=1731403294@",
+                "extId": "970264500",
+                "name": "Bad Vilbel / Heilsberg / Alte Frankfurter Stra\u00dfe (",
+                "type": "LM",
+                "lon": 0.0,
+                "lat": 0.0
+            }
+        },
+        {
+            "CoordLocation": {
+                "links": [
+                    {
+                        "link": [
+                            {
+                                "rel": "refine",
+                                "href": "https://www.rmv.de/hapi/location.name?input=Frankfurter+Stra%C3%9Fe&refineId=A%3D2%40O%3DFrankfurter+Stra%C3%9Fe+61118+Bad+Vilbel%40X%3D8738207%40Y%3D50178991%40U%3D103%40b%3D990017236%40B%3D1%40p%3D1716290195%40&type=A"
+                            }
+                        ]
+                    }
+                ],
+                "icon": {
+                    "res": "loc_addr"
+                },
+                "id": "A=2@O=Frankfurter Stra\u00dfe 61118 Bad Vilbel@X=8738207@Y=50178991@U=103@b=990017236@B=1@p=1716290195@",
+                "name": "Frankfurter Stra\u00dfe",
+                "description": "61118 Bad Vilbel",
+                "type": "ADR",
+                "lon": 8.738207,
+                "lat": 50.178991,
+                "refinable": true
+            }
+        },
+        {
+            "StopLocation": {
+                "LocationNotes": {
+                    "LocationNote": [
+                        {
+                            "value": "",
+                            "key": "WS",
+                            "type": "A",
+                            "txtN": ""
+                        },
+                        {
+                            "value": "",
+                            "key": "IS",
+                            "type": "A",
+                            "txtN": ""
+                        },
+                        {
+                            "value": "",
+                            "key": "HT",
+                            "type": "A",
+                            "txtN": ""
+                        },
+                        {
+                            "value": "",
+                            "key": "HE",
+                            "type": "A",
+                            "txtN": ""
+                        },
+                        {
+                            "value": "",
+                            "key": "HB",
+                            "type": "A",
+                            "txtN": ""
+                        },
+                        {
+                            "value": "de:06435:26865",
+                            "key": "IF",
+                            "type": "I",
+                            "txtN": "de:06435:26865"
+                        },
+                        {
+                            "value": "06435001",
+                            "key": "GK",
+                            "type": "I",
+                            "txtN": "06435001"
+                        }
+                    ]
+                },
+                "productAtStop": [
+                    {
+                        "icon": {
+                            "foregroundColor": {
+                                "r": 255,
+                                "g": 255,
+                                "b": 255,
+                                "hex": "#FFFFFF"
+                            },
+                            "backgroundColor": {
+                                "r": 167,
+                                "g": 22,
+                                "b": 128,
+                                "hex": "#A71680"
+                            },
+                            "res": "prod_bus"
+                        },
+                        "name": "Bus 86",
+                        "internalName": "Bus 86",
+                        "line": "86",
+                        "lineId": "de:rmv:00004308:",
+                        "catOut": "Bus",
+                        "cls": "64",
+                        "catOutS": "1aE",
+                        "catOutL": "Niederflurbus"
+                    },
+                    {
+                        "icon": {
+                            "foregroundColor": {
+                                "r": 255,
+                                "g": 255,
+                                "b": 255,
+                                "hex": "#FFFFFF"
+                            },
+                            "backgroundColor": {
+                                "r": 167,
+                                "g": 22,
+                                "b": 128,
+                                "hex": "#A71680"
+                            },
+                            "res": "prod_bus"
+                        },
+                        "name": "BusMKK80",
+                        "internalName": "BusMKK80",
+                        "line": "MKK80",
+                        "lineId": "de:rmv:00000266:",
+                        "catOut": "Bus",
+                        "cls": "64",
+                        "catOutS": "1aE",
+                        "catOutL": "Niederflurbus"
+                    },
+                    {
+                        "icon": {
+                            "foregroundColor": {
+                                "r": 255,
+                                "g": 255,
+                                "b": 255,
+                                "hex": "#FFFFFF"
+                            },
+                            "backgroundColor": {
+                                "r": 167,
+                                "g": 22,
+                                "b": 128,
+                                "hex": "#A71680"
+                            },
+                            "res": "prod_bus"
+                        },
+                        "name": "BusMKK81",
+                        "internalName": "BusMKK81",
+                        "line": "MKK81",
+                        "lineId": "de:rmv:00000268:",
+                        "catOut": "Bus",
+                        "cls": "64",
+                        "catOutS": "1aE",
+                        "catOutL": "Niederflurbus"
+                    },
+                    {
+                        "icon": {
+                            "foregroundColor": {
+                                "r": 255,
+                                "g": 255,
+                                "b": 255,
+                                "hex": "#FFFFFF"
+                            },
+                            "backgroundColor": {
+                                "r": 213,
+                                "g": 166,
+                                "b": 1,
+                                "hex": "#D5A601"
+                            },
+                            "res": "prod_ast"
+                        },
+                        "name": "ASTMKK81",
+                        "internalName": "ASTMKK81",
+                        "line": "MKK81",
+                        "lineId": "de:rmv:00000268:",
+                        "catOut": "AST",
+                        "cls": "512",
+                        "catOutS": "AST",
+                        "catOutL": "AST"
+                    }
+                ],
+                "altId": [
+                    "de:06435:26865"
+                ],
+                "timezoneOffset": 60,
+                "id": "A=1@O=Bad Orb Frankfurter Stra\u00dfe@X=9341860@Y=50229924@U=80@L=3026865@B=1@p=1736186035@",
+                "extId": "3026865",
+                "name": "Bad Orb Frankfurter Stra\u00dfe",
+                "lon": 9.34186,
+                "lat": 50.229924,
+                "weight": 176,
+                "products": 576
+            }
+        },
+        {
+            "StopLocation": {
+                "LocationNotes": {
+                    "LocationNote": [
+                        {
+                            "value": "",
+                            "key": "WS",
+                            "type": "A",
+                            "txtN": ""
+                        },
+                        {
+                            "value": "",
+                            "key": "IS",
+                            "type": "A",
+                            "txtN": ""
+                        },
+                        {
+                            "value": "",
+                            "key": "HT",
+                            "type": "A",
+                            "txtN": ""
+                        },
+                        {
+                            "value": "",
+                            "key": "HE",
+                            "type": "A",
+                            "txtN": ""
+                        },
+                        {
+                            "value": "",
+                            "key": "HB",
+                            "type": "A",
+                            "txtN": ""
+                        },
+                        {
+                            "value": "de:06440:26087",
+                            "key": "IF",
+                            "type": "I",
+                            "txtN": "de:06440:26087"
+                        },
+                        {
+                            "value": "06440002",
+                            "key": "GK",
+                            "type": "I",
+                            "txtN": "06440002"
+                        }
+                    ]
+                },
+                "productAtStop": [
+                    {
+                        "icon": {
+                            "foregroundColor": {
+                                "r": 255,
+                                "g": 255,
+                                "b": 255,
+                                "hex": "#FFFFFF"
+                            },
+                            "backgroundColor": {
+                                "r": 167,
+                                "g": 22,
+                                "b": 128,
+                                "hex": "#A71680"
+                            },
+                            "res": "prod_bus"
+                        },
+                        "name": "BusFB-10",
+                        "internalName": "BusFB-10",
+                        "line": "FB-10",
+                        "lineId": "de:rmv:00001002:",
+                        "catOut": "Bus",
+                        "cls": "64",
+                        "catOutS": "1aE",
+                        "catOutL": "Niederflurbus"
+                    },
+                    {
+                        "icon": {
+                            "foregroundColor": {
+                                "r": 255,
+                                "g": 255,
+                                "b": 255,
+                                "hex": "#FFFFFF"
+                            },
+                            "backgroundColor": {
+                                "r": 167,
+                                "g": 22,
+                                "b": 128,
+                                "hex": "#A71680"
+                            },
+                            "res": "prod_bus"
+                        },
+                        "name": "BusFB-11",
+                        "internalName": "BusFB-11",
+                        "line": "FB-11",
+                        "lineId": "de:rmv:00001003:",
+                        "catOut": "Bus",
+                        "cls": "64",
+                        "catOutS": "BB1",
+                        "catOutL": "Niederflurbus"
+                    },
+                    {
+                        "icon": {
+                            "foregroundColor": {
+                                "r": 255,
+                                "g": 255,
+                                "b": 255,
+                                "hex": "#FFFFFF"
+                            },
+                            "backgroundColor": {
+                                "r": 167,
+                                "g": 22,
+                                "b": 128,
+                                "hex": "#A71680"
+                            },
+                            "res": "prod_bus"
+                        },
+                        "name": "BusFB-70",
+                        "internalName": "BusFB-70",
+                        "line": "FB-70",
+                        "lineId": "de:rmv:00001050:",
+                        "catOut": "Bus",
+                        "cls": "64",
+                        "catOutS": "1aE",
+                        "catOutL": "Niederflurbus"
+                    }
+                ],
+                "altId": [
+                    "de:06440:26087"
+                ],
+                "timezoneOffset": 60,
+                "id": "A=1@O=Bad Nauheim Frankfurter Stra\u00dfe@X=8748482@Y=50365284@U=80@L=3026087@B=1@p=1736186035@",
+                "extId": "3026087",
+                "name": "Bad Nauheim Frankfurter Stra\u00dfe",
+                "lon": 8.748482,
+                "lat": 50.365284,
+                "weight": 168,
+                "products": 64
+            }
+        },
+        {
+            "StopLocation": {
+                "LocationNotes": {
+                    "LocationNote": [
+                        {
+                            "value": "",
+                            "key": "WS",
+                            "type": "A",
+                            "txtN": ""
+                        },
+                        {
+                            "value": "",
+                            "key": "IS",
+                            "type": "A",
+                            "txtN": ""
+                        },
+                        {
+                            "value": "",
+                            "key": "HT",
+                            "type": "A",
+                            "txtN": ""
+                        },
+                        {
+                            "value": "",
+                            "key": "HE",
+                            "type": "A",
+                            "txtN": ""
+                        },
+                        {
+                            "value": "",
+                            "key": "HB",
+                            "type": "A",
+                            "txtN": ""
+                        },
+                        {
+                            "value": "de:06533:16401",
+                            "key": "IF",
+                            "type": "I",
+                            "txtN": "de:06533:16401"
+                        },
+                        {
+                            "value": "06533003",
+                            "key": "GK",
+                            "type": "I",
+                            "txtN": "06533003"
+                        }
+                    ]
+                },
+                "productAtStop": [
+                    {
+                        "icon": {
+                            "foregroundColor": {
+                                "r": 255,
+                                "g": 255,
+                                "b": 255,
+                                "hex": "#FFFFFF"
+                            },
+                            "backgroundColor": {
+                                "r": 167,
+                                "g": 22,
+                                "b": 128,
+                                "hex": "#A71680"
+                            },
+                            "res": "prod_bus"
+                        },
+                        "name": "Bus 230",
+                        "internalName": "Bus 230",
+                        "line": "230",
+                        "lineId": "de:rmv:00000692:003",
+                        "catOut": "Bus",
+                        "cls": "64",
+                        "catOutS": "1aE",
+                        "catOutL": "Niederflurbus"
+                    },
+                    {
+                        "icon": {
+                            "foregroundColor": {
+                                "r": 255,
+                                "g": 255,
+                                "b": 255,
+                                "hex": "#FFFFFF"
+                            },
+                            "backgroundColor": {
+                                "r": 167,
+                                "g": 22,
+                                "b": 128,
+                                "hex": "#A71680"
+                            },
+                            "res": "prod_bus"
+                        },
+                        "name": "Bus 279",
+                        "internalName": "Bus 279",
+                        "line": "279",
+                        "lineId": "de:rmv:00004159:002",
+                        "catOut": "Bus",
+                        "cls": "64",
+                        "catOutS": "1aE",
+                        "catOutL": "Niederflurbus"
+                    },
+                    {
+                        "icon": {
+                            "foregroundColor": {
+                                "r": 255,
+                                "g": 255,
+                                "b": 255,
+                                "hex": "#FFFFFF"
+                            },
+                            "backgroundColor": {
+                                "r": 167,
+                                "g": 22,
+                                "b": 128,
+                                "hex": "#A71680"
+                            },
+                            "res": "prod_bus"
+                        },
+                        "name": "Bus 283",
+                        "internalName": "Bus 283",
+                        "line": "283",
+                        "lineId": "de:rmv:00000578:",
+                        "catOut": "Bus",
+                        "cls": "64",
+                        "catOutS": "1aE",
+                        "catOutL": "Niederflurbus"
+                    }
+                ],
+                "altId": [
+                    "de:06533:16401"
+                ],
+                "timezoneOffset": 60,
+                "id": "A=1@O=Bad Camberg Frankfurter Stra\u00dfe@X=8270067@Y=50294691@U=80@L=3016401@B=1@p=1736186035@",
+                "extId": "3016401",
+                "name": "Bad Camberg Frankfurter Stra\u00dfe",
+                "lon": 8.270067,
+                "lat": 50.294691,
+                "weight": 78,
+                "products": 192
+            }
+        },
+        {
+            "StopLocation": {
+                "LocationNotes": {
+                    "LocationNote": [
+                        {
+                            "value": "",
+                            "key": "WS",
+                            "type": "A",
+                            "txtN": ""
+                        },
+                        {
+                            "value": "",
+                            "key": "IS",
+                            "type": "A",
+                            "txtN": ""
+                        },
+                        {
+                            "value": "",
+                            "key": "HT",
+                            "type": "A",
+                            "txtN": ""
+                        },
+                        {
+                            "value": "",
+                            "key": "HE",
+                            "type": "A",
+                            "txtN": ""
+                        },
+                        {
+                            "value": "",
+                            "key": "HB",
+                            "type": "A",
+                            "txtN": ""
+                        },
+                        {
+                            "value": "de:06533:16439",
+                            "key": "IF",
+                            "type": "I",
+                            "txtN": "de:06533:16439"
+                        },
+                        {
+                            "value": "06533003",
+                            "key": "GK",
+                            "type": "I",
+                            "txtN": "06533003"
+                        }
+                    ]
+                },
+                "productAtStop": [
+                    {
+                        "icon": {
+                            "foregroundColor": {
+                                "r": 255,
+                                "g": 255,
+                                "b": 255,
+                                "hex": "#FFFFFF"
+                            },
+                            "backgroundColor": {
+                                "r": 167,
+                                "g": 22,
+                                "b": 128,
+                                "hex": "#A71680"
+                            },
+                            "res": "prod_bus"
+                        },
+                        "name": "Bus 230",
+                        "internalName": "Bus 230",
+                        "line": "230",
+                        "lineId": "de:rmv:00000692:003",
+                        "catOut": "Bus",
+                        "cls": "64",
+                        "catOutS": "1aE",
+                        "catOutL": "Niederflurbus"
+                    },
+                    {
+                        "icon": {
+                            "foregroundColor": {
+                                "r": 255,
+                                "g": 255,
+                                "b": 255,
+                                "hex": "#FFFFFF"
+                            },
+                            "backgroundColor": {
+                                "r": 167,
+                                "g": 22,
+                                "b": 128,
+                                "hex": "#A71680"
+                            },
+                            "res": "prod_bus"
+                        },
+                        "name": "Bus 283",
+                        "internalName": "Bus 283",
+                        "line": "283",
+                        "lineId": "de:rmv:00000578:",
+                        "catOut": "Bus",
+                        "cls": "64",
+                        "catOutS": "1aE",
+                        "catOutL": "Niederflurbus"
+                    },
+                    {
+                        "icon": {
+                            "foregroundColor": {
+                                "r": 255,
+                                "g": 255,
+                                "b": 255,
+                                "hex": "#FFFFFF"
+                            },
+                            "backgroundColor": {
+                                "r": 167,
+                                "g": 22,
+                                "b": 128,
+                                "hex": "#A71680"
+                            },
+                            "res": "prod_bus"
+                        },
+                        "name": "BusLM-32",
+                        "internalName": "BusLM-32",
+                        "line": "LM-32",
+                        "lineId": "de:rmv:00000354:",
+                        "catOut": "Bus",
+                        "cls": "64",
+                        "catOutS": "1aE",
+                        "catOutL": "Niederflurbus"
+                    }
+                ],
+                "altId": [
+                    "de:06533:16439"
+                ],
+                "timezoneOffset": 60,
+                "id": "A=1@O=Bad Camberg-W\u00fcrges Frankfurter Stra\u00dfe@X=8278768@Y=50284659@U=80@L=3016439@B=1@p=1736186035@",
+                "extId": "3016439",
+                "name": "Bad Camberg-W\u00fcrges Frankfurter Stra\u00dfe",
+                "lon": 8.278768,
+                "lat": 50.284659,
+                "weight": 78,
+                "products": 192
+            }
+        },
+        {
+            "CoordLocation": {
+                "links": [
+                    {
+                        "link": [
+                            {
+                                "rel": "refine",
+                                "href": "https://www.rmv.de/hapi/location.name?input=Alte+Frankfurter+Stra%C3%9Fe&refineId=A%3D2%40O%3DAlte+Frankfurter+Stra%C3%9Fe+34281+Gudensberg+-+Dorla%40X%3D9318506%40Y%3D51167526%40U%3D103%40b%3D990075970%40B%3D1%40p%3D1716290195%40&type=A"
+                            }
+                        ]
+                    }
+                ],
+                "icon": {
+                    "res": "loc_addr"
+                },
+                "id": "A=2@O=Alte Frankfurter Stra\u00dfe 34281 Gudensberg - Dorla@X=9318506@Y=51167526@U=103@b=990075970@B=1@p=1716290195@",
+                "name": "Alte Frankfurter Stra\u00dfe",
+                "description": "34281 Gudensberg - Dorla",
+                "type": "ADR",
+                "lon": 9.318506,
+                "lat": 51.167526,
+                "refinable": true
+            }
+        }
+    ],
+    "TechnicalMessages": {
+        "TechnicalMessage": [
+            {
+                "value": "2025-01-07 16:02:32",
+                "key": "requestTime"
+            },
+            {
+                "value": "ttp=16358#16651 pplanid0=1736186035 plancode0=zyrz5 pplanid1=1716290195 pplanid2=1736187682 pplanid3=1731403294 planid=1736186035 planid0=1736186035 planid_adr=1716290195 plancode_adr=n4b9x planid_poi=1736187682 plancode_poi=zys9w planid_lmk=1731403294 plancode_lmk=w39l8 srvv=5.45.RMV.X.P.JPL.7.2.1.00 (customer/hcurmv/release/24.5.0) [2024-09-04] tlibv=TRFVER: rel/hessen/2.01.3 2024-08-21 14:39:38 +0200 RMV/NVV_TARIF | RMV-TRK: 4.3.0 + NVV_TARIF v2 + Relay_EnrichmentProxy v1 tdatv=43|44 tdatsv=4302-20240725_1439|4401-20241029_1844 tarttp0=16050#16420 tarttp1=16421#16784 jno=1",
+                "key": "backendInfo"
+            }
+        ]
+    },
+    "serverVersion": "2.39.1",
+    "dialectVersion": "2.39",
+    "requestId": "y8m46z866i48hmck"
+}

@@ -1,2 +1,5 @@
 /target
 .env
+rust-toolchain.toml
+flake.lock
+test.json
